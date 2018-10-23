@@ -5,5 +5,5 @@ import reactor.core.publisher.Flux
 
 @Repository
 class NumberRepository {
-    fun allNumber(): Flux<Int> = Flux.range(1, 100)
+    fun allNumber(): Flux<Int> = Flux.range(1, 30)
 }
