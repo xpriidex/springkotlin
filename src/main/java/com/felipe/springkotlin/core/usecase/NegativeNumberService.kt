@@ -6,7 +6,5 @@ import org.springframework.stereotype.Service
 class NegativeNumberService(private val numberService: NumberService) {
 
     fun calculateNegative() = numberService.allNumber().map { o -> calculate(o) }
-
     private fun calculate(i: Int): Int = -1 * i
-
 }
